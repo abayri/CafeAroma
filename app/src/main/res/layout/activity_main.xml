@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.cafearoma.MainActivity">
+
+    <ImageView
+        android:id="@+id/coffee_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/coffee_cup"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/company_name"
+        android:textColor="@android:color/white"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/street_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123 Uda City Street"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/title"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calgary, Alberta  T2P 678"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/street_name"
+        android:layout_alignParentRight="true"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/city"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="51dp"/>
+
+    <TextView
+        android:id="@+id/phone_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="@android:color/white"
+        android:layout_toLeftOf="@id/phone"
+        android:layout_below="@id/city"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/phone"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@android:color/white"
+        android:layout_toLeftOf="@id/email"
+        android:layout_below="@id/phone"/>
+
+    <TextView
+        android:id="@+id/operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hours"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/email_id"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/monday_friday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday to Friday: 9:00 AM to 8:00PM"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/operation"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/saturday_sunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturday and Sunday: 9:00 AM to 9:00PM"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/monday_friday"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/tag_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_name"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"/>
+
+</RelativeLayout>

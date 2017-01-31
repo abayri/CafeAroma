@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CafeAroma</string>
+    <string name="company_name">Cafe Aroma</string>
+    <string name="tag_name">Enjoy the sniff before you sip...</string>
+    <string name="phone">403 546 9360</string>
+    <string name="email">caroma@gmail.com</string>
+    <string name="hours">Hours of Operation</string>
+</resources>
